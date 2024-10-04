@@ -1,0 +1,47 @@
+# Alacritty Configuration - White Text with Tennessee Orange Highlights
+
+[window]
+opacity = 1.0
+
+[font]
+normal = { family = "JetBrains Mono", style = "Regular" }
+bold = { family = "JetBrains Mono", style = "Bold" }
+italic = { family = "JetBrains Mono", style = "Italic" }
+size = 11.0
+
+[colors.primary]
+background = "#1E1E2E"  # Dark background
+foreground = "#FFFFFF"  # White text
+
+[colors.normal]
+black = "#45475A"
+red = "#FF8200"    # Tennessee Orange
+green = "#FF8200"  # Tennessee Orange
+yellow = "#FF8200" # Tennessee Orange
+blue = "#FF8200"   # Tennessee Orange
+magenta = "#FF8200"# Tennessee Orange
+cyan = "#FF8200"   # Tennessee Orange
+white = "#FFFFFF"  # White
+
+[colors.bright]
+black = "#6272A4"
+red = "#FF8200"    # Tennessee Orange
+green = "#FF8200"  # Tennessee Orange
+yellow = "#FF8200" # Tennessee Orange
+blue = "#FF8200"   # Tennessee Orange
+magenta = "#FF8200"# Tennessee Orange
+cyan = "#FF8200"   # Tennessee Orange
+white = "#FFFFFF"  # White
+
+[cursor]
+style = "Block"
+unfocused_hollow = true
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+# Add a hint of the accent color to the selection
+[colors.selection]
+text = "CellForeground"
+background = "#FF8200"
